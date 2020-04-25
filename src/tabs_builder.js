@@ -7,9 +7,6 @@ let showPanel = function(panelIndex, colorCode) {
     let tabButtons = document.querySelectorAll(".tabContainer .buttonContainer button");
     let tabPanels = document.querySelectorAll(".tabContainer .tabPanel");
 
-    console.log(tabButtons);
-    console.log(tabPanels);
-
     tabButtons.forEach(function(node){
         node.style.backgroundColor="";
         node.style.color="";

@@ -8,6 +8,12 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: sans-serif;
+    color: #dc2d5e;
+    text-align: center;
+}
+
 .tabContainer {
     width: 100%;
     height: 350px;

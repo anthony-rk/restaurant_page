@@ -37,7 +37,26 @@ let initializer = function() {
             showPanel(3, '#ff5722');
         });
     }();
+    
+    // Initialize view to the first Tab
     showPanel(0, '#f44336');
+
+    let fillTabInnerHTML = function() {
+        document.getElementById('btn-1').innerHTML = "About Us";
+        document.getElementById('panel-1').innerHTML = "We have been serving the community with our gourmet Pizzas since 1995.";
+
+        document.getElementById('btn-2').innerHTML = "Our Pizza";
+        document.getElementById('panel-2').innerHTML = "Our Pizza uses freshly grated Mozzarella, homemade tomato sauce and hand tossed dough.";
+
+        document.getElementById('btn-3').innerHTML = "Business Information";
+        document.getElementById('panel-3').innerHTML = "Open everyday 11am - 1am";
+
+        document.getElementById('btn-4').innerHTML = "Reviews";
+        document.getElementById('panel-4').innerHTML = '"Best pizza the 99% can afford!"-Bernie Sanders' + "<br /> <br />" + '"Doesn\'t get better than this!" -Barack Obama';
+    }();
+
+
+
 
 
 };
